@@ -6,7 +6,7 @@ source /etc/profile.d/modules.sh;
   module swap PrgEnv-pgi PrgEnv-gnu;
   module swap gcc/4.8.1 gcc/4.7.2;
   module load netcdf/4.3.0;
-  module load petsc/3.2.02;
+  module load cray-petsc;
 
 BUILD_DIR=nightly_build
 
