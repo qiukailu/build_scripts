@@ -4,7 +4,6 @@ source /etc/profile.d/modules.sh;
 
   module load java;
   module swap PrgEnv-pgi PrgEnv-gnu;
-  module swap gcc/4.8.1 gcc/4.7.2;
   module load netcdf/4.3.0;
   module load cray-petsc;
 
