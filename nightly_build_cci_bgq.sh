@@ -1,7 +1,6 @@
 #!/bin/bash -ex
 
-LOCAL_DIR=weekly_build;
-BUILD_DIR=weekly_build;
+LOCAL_DIR=/space/qlu/weekly_build;
 
 rm -rf weekly_build.tar.gz;
 rm -rf $LOCAL_DIR; 
