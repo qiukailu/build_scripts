@@ -16,6 +16,7 @@ cd ..
 tar zcf weekly_build.tar.gz weekly_build;
 
 # send to CCNI
+ssh $CCNI ' ssh q ' rm -rf weekly_build ' ';
 scp weekly_build.tar.gz $CCNI:~/
 
 # go to CCNI BG/Q
